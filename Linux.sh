@@ -18,7 +18,7 @@ apt upgrade -y > /dev/null 2>&1 && echo && sleep 2
 
 echo "Done!." && echo ;echo "> Updating PKG"
 
-pkg update -y > 2>&1 && sleep 3;echo 
+pkg update -y > /dev/null 2>&1 && sleep 3;echo 
 
 e
 cho "Done!." && echo && echo "> Upgrading PKG."
