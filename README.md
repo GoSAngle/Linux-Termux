@@ -2,7 +2,7 @@
 This script install a Distro of linux in you termux.
 # How Install?
 execute 
-git clone 
+git clone https://github.com/GoSAngle/Linux-Termux.git
 cd Linux-Termux
 chmod +x Linux.sh 
 bash Linux.sh
