@@ -14,7 +14,7 @@ echo && echo "Done!."
 
 echo ;echo "> Upgrading APT."
 
-apt upgrade -y > /dev/null 2>& && echo && sleep 2
+apt upgrade -y > /dev/null 2>&1 && echo && sleep 2
 
 echo "Done!." && echo ;echo "> Updating PKG"
 
