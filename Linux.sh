@@ -65,6 +65,8 @@ if [[ "$Installchoice" = "1" ]]; then
 	echo && echo "Setup Kali..";chmod +x install-nethunter-termux
 	echo ;echo "Running Installer.."; sleep 5 && clear
 	./install-nethunter-termux
+	cd $HOME
+	clear;echo && echo "Type NH or NetHunter to start a Kali"
 
 elif [[ "$Installchoice" = "2" ]]; then
 	echo && echo "Installing Proot.."
